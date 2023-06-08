@@ -1,8 +1,9 @@
-/*
-Javascriptにおける数値の表現
-@hiroya
-*/
+const score = Number(prompt('Score?'));
 
-//大きな数値、小さな数値の表現
-console.log(1.2e4);　//1.2かける10の4乗 =12000
-console.log(1.2e-4); //1.2かける10の-4乗 =0.00012
+if (score >= 90) {
+    console.log('A!');
+}   else if (score >= 70) {
+    console.log('B!')
+} else {
+    console.log('C!');
+}
